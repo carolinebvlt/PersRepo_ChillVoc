@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+    <route url="/test/ChillVoc/Web/admin/" module="VocLists" action="index"/>
+    <route url="/test/ChillVoc/Web/admin/DerniersInscrits" module="Players" action="index" />
+    <route url="/test/ChillVoc/Web/admin/Ajouter-une-liste/" module="VocLists" action="add"/>
+    <route url="/test/ChillVoc/Web/admin/Listes-existantes/" module="VocLists" action="index"/>
+    <route url="/test/ChillVoc/Web/admin/Modifier-liste/([0-9]+)/" module="VocLists" action="update" vars="id" />
+</routes>
